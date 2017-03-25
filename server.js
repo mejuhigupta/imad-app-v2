@@ -21,13 +21,13 @@ app.get('/ui/madi.png', function (req, res) {
 //start of changes
 //Added by me
 app.get('/tvshows', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'tvshows.html'));
+  res.send('tvshow will be displayed over here');
 });
 
 //added by me
-app.get('/songs', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'songs.html'));
-});
+//app.get('/songs', function (req, res) {
+ // res.sendFile(path.join(__dirname, 'ui', 'songs.html'));
+//});
 //end of changes
 
 
