@@ -21,7 +21,7 @@ app.get('/ui/madi.png', function (req, res) {
 //start of changes
 //Added by me
 app.get('/tvshows', function (req, res) {
-  res.send('tvshow will be displayed over here');
+  res.sendFile(path.join(__dirname, 'ui', 'tvshows.html'));
 });
 
 //added by me
